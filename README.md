@@ -1,4 +1,4 @@
-# 1.How to use Deep Taylor Decomposition 
+# How to use Explaining_Decision_of_Time_Series_Data
 
 ## (1). Define model structure from trained model for calculation of relevance score
 
@@ -29,9 +29,6 @@ model.sess.run([Rs],feed_dict={X:batch_in, model.keep_prob :p})
 ref : [Explaining NonLinear Classification Decisions with Deep Taylor Decomposition]: https://arxiv.org/pdf/1512.02479.pd
 
 * * *
-
-# 2. How to use Network Dissection
-## (1). please write down!
 
 
 ## Requirements 
