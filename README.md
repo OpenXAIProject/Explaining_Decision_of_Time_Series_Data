@@ -22,7 +22,7 @@ for i in range("number of class"):
     Rs.append(taylor(i))
 </code></pre>
 
-## (2).run session for getting relvance score
+
 <pre><code>
 model.sess.run([Rs],feed_dict={X:batch_in, model.keep_prob :p})
 </code></pre>
